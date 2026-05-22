@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>lanmower — distributed systems, P2P & blockchain</title>
+<meta name="description" content="Portfolio of lanmower — independent developer building P2P networking, blockchain and the Hyperswarm ecosystem in JavaScript, TypeScript & C++." />
+<meta property="og:title" content="lanmower — distributed systems & P2P" />
+<meta property="og:description" content="Building the future of distributed systems. Hyperswarm · Blockchain · Edge networking." />
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/657315?v=4" />
+<meta name="theme-color" content="#0b0d12" />
+<link rel="icon" href="https://avatars.githubusercontent.com/u/657315?v=4" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="brand" href="#top">
+    <img src="https://avatars.githubusercontent.com/u/657315?v=4" alt="" />
+    <span>lanmower</span>
+  </a>
+  <nav>
+    <a href="#work">Work</a>
+    <a href="#stack">Stack</a>
+    <a href="#all">All projects</a>
+    <a href="https://github.com/lanmower" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero-tag">Independent developer · Internet</div>
+  <h1>
+    Building the future of <span class="grad">distributed systems</span>.
+  </h1>
+  <p class="lede">
+    Fifteen years of shipping peer-to-peer infrastructure, blockchains, and edge tooling.
+    I work where the network is the computer — Hyperswarm, Hypercore, EOSIO, and the
+    JavaScript / TypeScript / C++ that glue them together.
+  </p>
+  <div class="cta">
+    <a class="btn primary" href="#work">See selected work</a>
+    <a class="btn ghost" href="https://github.com/lanmower" target="_blank" rel="noopener">Follow on GitHub</a>
+  </div>
+
+  <div class="stats">
+    <div><strong id="stat-repos">—</strong><span>public repos</span></div>
+    <div><strong id="stat-stars">—</strong><span>stars earned</span></div>
+    <div><strong id="stat-langs">—</strong><span>languages</span></div>
+    <div><strong>2011</strong><span>on GitHub since</span></div>
+  </div>
+</section>
+
+<section id="work" class="section">
+  <header class="section-head">
+    <h2>Selected work</h2>
+    <p>A focused slice of the Hyperswarm ecosystem and chain tooling I've built.</p>
+  </header>
+  <div id="featured" class="grid featured"></div>
+</section>
+
+<section id="stack" class="section">
+  <header class="section-head">
+    <h2>The stack I live in</h2>
+    <p>Languages and primitives that show up across the work.</p>
+  </header>
+  <div class="pills">
+    <span class="pill">JavaScript</span>
+    <span class="pill">TypeScript</span>
+    <span class="pill">Node.js</span>
+    <span class="pill">C++</span>
+    <span class="pill">Hyperswarm</span>
+    <span class="pill">Hypercore</span>
+    <span class="pill">Noise protocol</span>
+    <span class="pill">EOSIO / WASM</span>
+    <span class="pill">Solidity</span>
+    <span class="pill">React</span>
+    <span class="pill">Astro</span>
+    <span class="pill">Docker</span>
+    <span class="pill">P2P networking</span>
+    <span class="pill">Smart contracts</span>
+  </div>
+</section>
+
+<section id="all" class="section">
+  <header class="section-head">
+    <h2>All projects <span id="repo-count" class="count"></span></h2>
+    <p>Every active, original repository — sortable and filterable.</p>
+  </header>
+
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search projects…" autocomplete="off" />
+    <select id="lang"><option value="">All languages</option></select>
+    <select id="sort">
+      <option value="stars">Sort: most stars</option>
+      <option value="updated">Sort: recently updated</option>
+      <option value="created">Sort: newest</option>
+      <option value="name">Sort: name</option>
+    </select>
+  </div>
+
+  <div id="repos" class="grid"></div>
+  <div id="empty" class="empty" hidden>No projects match.</div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div>
+    <strong>lanmower</strong>
+    <span>· Independent developer</span>
+  </div>
+  <div class="foot-links">
+    <a href="https://github.com/lanmower" target="_blank" rel="noopener">github.com/lanmower</a>
+    <span>·</span>
+    <span>Built &amp; hosted on GitHub Pages</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
